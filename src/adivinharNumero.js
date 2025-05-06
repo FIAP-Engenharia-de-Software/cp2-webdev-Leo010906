@@ -9,7 +9,16 @@
 
 function adivinharNumero(max, palpite) {
   // TODO: implementar função
+  recebeValor("Digite o valor:")
+
+  recebeValor === palpite
+  if (recebeValor === max) {
+    return ("Acertou")
+  }
+  else return ("Errou");
+
 }
+
 
 
 // NÃO REMOVA O CÓDIGO ABAIXO

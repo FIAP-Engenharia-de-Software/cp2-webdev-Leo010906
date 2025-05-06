@@ -11,6 +11,13 @@
 
 function verificarPalavra(frase, palavraBusca) {
   // TODO: implementar função
+  if (frase(length < 5)) {
+    return ("A frase é muita curta")
+  }
+  if (frase === palavraBusca) {
+    return ("A frase contém a palavra de busca")
+  }
+  else return ("A frase não contém a palavra de busca");
 }
 
 //NÃO REMOVA O CÓDIGO ABAIXO

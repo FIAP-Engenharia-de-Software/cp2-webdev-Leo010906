@@ -11,6 +11,19 @@
 
 function calcular(num1, num2, operador) {
   // TODO: implementar função
+  if (calcular(num1 + num2)) {
+    return ("O resultado da soma é:" + calcular)
+  }
+  else if (calcular(num1 - num2)) {
+    return ("O resultado da subtração é:" + calcular)
+  }
+  else if (calcular(num1 * num2)) {
+    return ("O resultado da multiplicação é:" + calcular)
+  }
+  else if (calcular(num1 / num2)) {
+    return ("O resultado da divisão é:" + calcular)
+  }
+
 }
 
 
